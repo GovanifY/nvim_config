@@ -9,8 +9,11 @@ echo So here we go, time to copy the soft shortcuts!
 sudo cp neovim.png  /usr/share/icons/neovim.png
 sudo cp neovim.desktop /usr/share/applications/neovim.desktop
 
+echo Removing old config to prevent a messed up one...
+rm -rf ~/.config/nvim/
+
 echo Copying our config...
-cp -r /nvim_config/  ~/.config/nvim/
+cp -r nvim/  ~/.config/
 
 echo And done! Enjoy your stupid config with all my hate towards you
 echo -GY
