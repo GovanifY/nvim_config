@@ -15,3 +15,5 @@ Unix only(who uses NeoVim on windows anyways?)
 Desktop files sets terminal to xterm-256color before executing so be sure to
 modify the colorscheme(gruvbox) and/or the command if your terminal can't handle
 it!
+Quick Note: For opening folders in NERDTree use the o key as enter will open a
+new tab!
