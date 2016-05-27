@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Neovim
+GenericName=Text Editor
+Comment=Edit and program with style!
+
+Icon=neovim
+
+Type=Application
+Categories=TextEditor;Development;
+
+Exec=export TERM='xterm-256color' && nvim %U
+StartupNotify=false
+Terminal=True
+MimeType=text/plain;
