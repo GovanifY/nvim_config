@@ -46,6 +46,7 @@ set synmaxcol=300
 " God damnit don't make huge paragraphs you motherfuckers
 " Also why 78? 80 is plain
 set textwidth=80
+
 " Let's set this tree view by default. God it's so useful
 " Well open it ONLY if a file was specified, otherwise I 
 " might want to do something specific w/ it
@@ -55,3 +56,9 @@ set textwidth=80
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() != 0 && !exists("s:std_in") | let g:nerdtree_tabs_open_on_console_startup=1| endif
 let NERDTreeMapOpenInTab='<Enter>'
+
+" Map esc to go out of terminal mode
+" This is useful when, for exemple, changing between make/program exec and
+" actual coding of the soft
+tnoremap <Esc> <C-\><C-n>
+
