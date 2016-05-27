@@ -16,3 +16,8 @@ Desktop files sets terminal to xterm-256color before executing so be sure to
 modify the colorscheme(gruvbox) and/or the command if your terminal can't handle
 it!
 Also note that plugins might be modified(i.e NERDTree using direnter plugin)
+
+Plugin Notes:
+NERDTree
+        *Files will open in new tabs only by using the enter key. This is an
+        intented behaviour
