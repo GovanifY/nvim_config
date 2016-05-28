@@ -20,6 +20,7 @@ set smartcase
 
 " Ignore common file types
 set wildignore=*.o
+let NERDTreeIgnore=['.o$[[file]]', '\~$']
 " Display airline bar
 set laststatus=2
 set title
