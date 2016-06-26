@@ -44,6 +44,8 @@ set foldnestmax=10
 " Folding by indentation
 set foldmethod=indent
 
+" Associate gdscript format for Godot Engine
+au BufNewFile,BufRead *.gd setlocal ft=gdscript
 " Paste shortcut
 set pastetoggle=<F2>
 " Expand tabs
