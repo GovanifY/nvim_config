@@ -12,3 +12,4 @@ Exec=export TERM='xterm-256color' && nvim %U
 StartupNotify=false
 Terminal=True
 MimeType=text/plain;
+ 
