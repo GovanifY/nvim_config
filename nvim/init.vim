@@ -1,7 +1,16 @@
-" Why am I using pathogen?
-" 1st its name is cool
-" 2nd I don't need more, nor any (neo)vim user do actually
-execute pathogen#infect()
+" Oh well using plug 'cuz had issues w/ sync between nvim in the past
+call plug#begin()
+
+Plug 'https://github.com/morhetz/gruvbox'
+Plug 'https://github.com/scrooloose/nerdtree'
+Plug 'https://github.com/jistr/vim-nerdtree-tabs'
+Plug 'https://github.com/Nopik/vim-nerdtree-direnter'
+Plug 'https://github.com/tpope/vim-fugitive'
+Plug 'https://github.com/vim-airline/vim-airline'
+Plug 'https://github.com/quabug/vim-gdscript'
+
+call plug#end()
+
 
 colorscheme gruvbox
 set bg=dark    " Setting dark mode
